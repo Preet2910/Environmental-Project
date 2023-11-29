@@ -1,0 +1,132 @@
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 90px;
+    text-decoration: none;
+    border-radius: 2px;
+    align-items: center;
+}
+.navbar a:hover {
+    background-color: #23EC37;
+    color: whitesmoke;
+}
+body{
+    background-image: url(pexels-david-alberto-carmona-coto-1151418.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content-clm, .content-effect{
+    margin: 70px 70px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #098c16;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.tpc{
+    color: white;
+    font-size: 40px;
+    margin : 0 50px;
+}
+#smoke, #factory, #deforestation, #car-smoke, #household-waste, #cause-pic{
+    margin-top: 2px;
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 20px; /* Adjust this value as needed */
+    display: block;
+}
+.tpc-1{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.causes{
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#knw-mre{
+    margin:0 50% 0 50%;
+    background-color: rgb(21, 211, 33);
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    align-items: center; /* Adjust this value as needed */
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+#knw-mre:hover{
+    background-color: #23EC37;
+    color: whitesmoke;
+}
+#button-menu{
+    text-align: center;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  background-color: #098c16;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#serv-btn{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 90px;
+    text-decoration: none;
+    border-radius: 2px;
+    align-items: center;
+    
+}
+.navbar #serv-btn:hover{
+    background-color: #23EC37;
+    color: whitesmoke;
+}
